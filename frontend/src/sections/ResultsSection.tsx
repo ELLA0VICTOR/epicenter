@@ -1,6 +1,7 @@
 import { BlastRadiusGraph } from "../components/epicenter/BlastRadiusGraph";
 import { ExposureSummary } from "../components/epicenter/ExposureSummary";
 import { PageShell } from "../components/layout/PageShell";
+import { Button } from "../components/ui/Button";
 import { SectionLabel } from "../components/ui/SectionLabel";
 import { Reveal } from "../components/ui/Reveal";
 import type { AnalyzeResponse } from "../lib/types";
@@ -11,7 +12,7 @@ interface ResultsSectionProps {
 
 export function ResultsSection({ result }: ResultsSectionProps) {
   return (
-    <section id="results" className="bg-black py-24 md:py-32">
+    <section id="results" className="scroll-mt-[74px] bg-black py-24 md:py-32">
       <PageShell>
         <Reveal><SectionLabel number="03" label="Blast radius" /></Reveal>
         <Reveal className="mt-12 flex flex-col gap-5 md:flex-row md:items-end md:justify-between" delay={70}>
@@ -32,6 +33,7 @@ export function ResultsSection({ result }: ResultsSectionProps) {
                 <div className="mx-auto h-3 w-3 bg-accent" />
                 <p className="mt-5 font-mono text-[10px] uppercase tracking-[0.16em] text-muted">Waiting for a package-lock.json</p>
                 <p className="mt-2 text-sm text-dim">The summary and HydraDB path graph will render after analysis.</p>
+                <Button className="mt-6" href="#analyze">Analyze a lockfile</Button>
               </div>
             </div>
           </Reveal>

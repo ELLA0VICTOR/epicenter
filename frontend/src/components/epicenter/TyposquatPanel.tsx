@@ -31,7 +31,11 @@ export function TyposquatPanel() {
             </p>
           </div>
           <Badge tone={result?.matches.length ? "critical" : "safe"}>
-            {isLoading ? "Querying" : `${result?.matches.length ?? 0} nearby`}
+            {isLoading
+              ? "Querying"
+              : result?.matches.length
+                ? `${result.matches.length} nearby`
+                : "Clear"}
           </Badge>
         </div>
         <form className="mt-7 flex flex-col gap-2 sm:flex-row" onSubmit={submit}>
@@ -54,8 +58,8 @@ export function TyposquatPanel() {
         ) : result.matches.length === 0 ? (
           <div>
             <div className="font-display text-5xl text-white">0</div>
-            <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.14em] text-white">No nearby high-impact names</p>
-            <p className="mt-3 text-sm leading-6 text-dim">No different name in the 2,000-package snapshot is within Levenshtein distance two of {result.packageName}.</p>
+            <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.14em] text-white">No near-miss names found in your tree</p>
+            <p className="mt-3 text-sm leading-6 text-dim">Clear result: no different name in the pinned 2,000-package snapshot is within Levenshtein distance two of {result.packageName}.</p>
           </div>
         ) : (
           <div className="grid gap-2">

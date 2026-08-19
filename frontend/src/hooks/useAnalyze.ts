@@ -14,7 +14,17 @@ export function useAnalyze() {
     try {
       const response = await analyzeLockfile(lockfile, sourceLabel);
       setData(response);
-      requestAnimationFrame(() => document.querySelector("#results")?.scrollIntoView());
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          const reduceMotion = window.matchMedia(
+            "(prefers-reduced-motion: reduce)",
+          ).matches;
+          document.querySelector("#results")?.scrollIntoView({
+            behavior: reduceMotion ? "auto" : "smooth",
+            block: "start",
+          });
+        });
+      });
       return response;
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "Analysis failed");

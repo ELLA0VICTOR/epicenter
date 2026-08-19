@@ -25,7 +25,10 @@ export default function App() {
         <ProblemSection data={incidents.data} error={incidents.error} />
         <AnalyzeSection isLoading={analysis.isLoading} error={analysis.error} onAnalyze={analysis.analyze} />
         <ResultsSection result={analysis.data} />
-        <PanelsSection incidents={incidents.data?.incidents ?? []} />
+        <PanelsSection
+          hasAnalysis={analysis.data !== null}
+          incidents={incidents.data?.incidents ?? []}
+        />
       </main>
       <Footer />
     </div>
