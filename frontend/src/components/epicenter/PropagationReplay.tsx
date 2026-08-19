@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { useIncidentReplay } from "../../hooks/useIncidentReplay";
 import type { Incident } from "../../lib/types";
+import { PropagationReplayGraph } from "./PropagationReplayGraph";
 import { Badge } from "../ui/Badge";
 import { Button } from "../ui/Button";
 import { Card } from "../ui/Card";
@@ -29,6 +30,8 @@ export function PropagationReplay({ incidents }: PropagationReplayProps) {
   const { data, error, isLoading } = useIncidentReplay(incidentId);
   const events = data?.events ?? [];
   const visibleEvents = events.slice(0, visibleCount);
+  const incidentName =
+    incidents.find((incident) => incident.id === incidentId)?.name ?? incidentId;
 
   useEffect(() => {
     if (!isPlaying || visibleCount >= events.length) return;
@@ -128,39 +131,38 @@ export function PropagationReplay({ incidents }: PropagationReplayProps) {
             <p className="font-mono text-[10px] uppercase tracking-[0.15em] text-dim">
               Ordering published versions...
             </p>
-          ) : visibleEvents.length === 0 ? (
-            <div className="flex min-h-64 items-center justify-center border border-dashed border-rule text-center">
-              <div>
-                <div className="mx-auto h-3 w-3 bg-accent" />
-                <p className="mt-5 font-mono text-[10px] uppercase tracking-[0.15em] text-muted">
-                  Ready to replay
-                </p>
-                <p className="mt-2 text-sm text-dim">Press play to reveal the release sequence.</p>
-              </div>
-            </div>
           ) : (
-            <ol ref={timelineRef} className="max-h-[30rem] overflow-y-auto border-l border-rule pl-5">
-              {visibleEvents.map((event, index) => (
-                <li className="relative border-b border-rule py-4 first:pt-0" key={event.nodeId}>
-                  <span
-                    className="absolute -left-[1.48rem] top-5 h-2 w-2 bg-accent first:top-1"
-                    aria-hidden="true"
-                  />
-                  <div className="flex flex-wrap items-center justify-between gap-3">
-                    <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-dim">
-                      #{String(index + 1).padStart(2, "0")} / +{event.timestampOffsetSeconds}s
-                    </span>
-                    <Badge tone="critical">Compromised</Badge>
-                  </div>
-                  <div className="mt-3 break-all font-mono text-xs text-white">
-                    {event.packageName}@{event.version}
-                  </div>
-                  <time className="mt-2 block font-mono text-[9px] uppercase tracking-[0.1em] text-dim" dateTime={event.publishedAt}>
-                    {formatPublishedAt(event.publishedAt)} UTC
-                  </time>
-                </li>
-              ))}
-            </ol>
+            <div>
+              <PropagationReplayGraph
+                events={events}
+                incidentName={incidentName}
+                visibleCount={visibleCount}
+              />
+              {visibleEvents.length > 0 ? (
+                <ol ref={timelineRef} className="mt-4 max-h-64 overflow-y-auto border-l border-rule pl-5">
+                  {visibleEvents.map((event, index) => (
+                    <li className="relative border-b border-rule py-4 first:pt-0" key={event.nodeId}>
+                      <span
+                        className="absolute -left-[1.48rem] top-5 h-2 w-2 bg-accent first:top-1"
+                        aria-hidden="true"
+                      />
+                      <div className="flex flex-wrap items-center justify-between gap-3">
+                        <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-dim">
+                          #{String(index + 1).padStart(2, "0")} / +{event.timestampOffsetSeconds}s
+                        </span>
+                        <Badge tone="critical">Compromised</Badge>
+                      </div>
+                      <div className="mt-3 break-all font-mono text-xs text-white">
+                        {event.packageName}@{event.version}
+                      </div>
+                      <time className="mt-2 block font-mono text-[9px] uppercase tracking-[0.1em] text-dim" dateTime={event.publishedAt}>
+                        {formatPublishedAt(event.publishedAt)} UTC
+                      </time>
+                    </li>
+                  ))}
+                </ol>
+              ) : null}
+            </div>
           )}
         </div>
       </div>

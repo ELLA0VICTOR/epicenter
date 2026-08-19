@@ -16,7 +16,7 @@ The May 2026 TanStack compromise demonstrated the scale of that problem: a CI co
 - Idempotent lockfile ingestion with `PackageVersion`, `DEPENDS_ON`, `LockfileSubmission`, and `RESOLVED` graph records.
 - A blast-radius API using a direct exact-version pass plus HydraDB `algo.MSpaths` for transitive path reconstruction.
 - A force-directed exposure graph and safe/exposed result summary.
-- A timestamp-backed propagation replay for all six incidents, ordered by each compromised version's sourced publish time.
+- A timestamp-backed propagation replay for all six incidents, with an animated incident-membership graph ordered by each compromised version's sourced publish time.
 - Six sourced TeamPCP-related incidents containing 50 packages, 94 compromised versions, and 20 real maintainer identities.
 - Incident-scoped maintainer-overlap traversal over `MAINTAINS` edges.
 - A precomputed typosquat index against 2,000 ranked npm names, stored as `NAME_SIMILAR_TO {distance}` edges; names shorter than five characters are excluded to avoid noisy matches.
