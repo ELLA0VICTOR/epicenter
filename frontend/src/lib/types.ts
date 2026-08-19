@@ -19,6 +19,15 @@ export interface IncidentsResponse {
   summary: IncidentSummary;
 }
 
+export interface ReplayEvent {
+  timestampOffsetSeconds: number;
+  packageName: string;
+  version: string;
+  publishedAt: string;
+  event: "compromised";
+  nodeId: string;
+}
+
 export interface GraphNode {
   id: string;
   key: string;

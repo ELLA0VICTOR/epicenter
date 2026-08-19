@@ -1,7 +1,9 @@
 import { MaintainerOverlapPanel } from "../components/epicenter/MaintainerOverlapPanel";
+import { PropagationReplay } from "../components/epicenter/PropagationReplay";
 import { TyposquatPanel } from "../components/epicenter/TyposquatPanel";
 import { PageShell } from "../components/layout/PageShell";
 import { Reveal } from "../components/ui/Reveal";
+import { SectionLabel } from "../components/ui/SectionLabel";
 import type { Incident } from "../lib/types";
 
 interface PanelsSectionProps {
@@ -12,7 +14,11 @@ export function PanelsSection({ incidents }: PanelsSectionProps) {
   return (
     <section id="signals" className="border-t border-rule bg-black py-24 md:py-32">
       <PageShell>
-        <Reveal>
+        <Reveal><SectionLabel number="04" label="Propagation replay" /></Reveal>
+        <Reveal className="mt-12" delay={70}>
+          <PropagationReplay incidents={incidents} />
+        </Reveal>
+        <Reveal className="mt-24 border-t border-rule pt-20 md:mt-32 md:pt-24">
           <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
             <span className="text-accent">05—06</span> / Adjacent signals
           </div>

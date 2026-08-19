@@ -4,6 +4,8 @@ export interface TyposquatMatch {
   distance: number;
 }
 
+const MINIMUM_PACKAGE_NAME_LENGTH = 5;
+
 export function levenshteinDistance(left: string, right: string): number {
   if (left === right) return 0;
   if (left.length === 0) return right.length;
@@ -36,10 +38,20 @@ export function buildTyposquatIndex(
 ): TyposquatMatch[] {
   const matches: TyposquatMatch[] = [];
   const popularNames = Array.from(
-    new Set(popularPackageNames.map((name) => name.trim()).filter(Boolean)),
+    new Set(
+      popularPackageNames
+        .map((name) => name.trim())
+        .filter((name) => name.length >= MINIMUM_PACKAGE_NAME_LENGTH),
+    ),
   );
 
-  for (const sourceName of new Set(seededPackageNames)) {
+  const sourceNames = new Set(
+    seededPackageNames
+      .map((name) => name.trim())
+      .filter((name) => name.length >= MINIMUM_PACKAGE_NAME_LENGTH),
+  );
+
+  for (const sourceName of sourceNames) {
     for (const similarName of popularNames) {
       if (
         sourceName === similarName ||

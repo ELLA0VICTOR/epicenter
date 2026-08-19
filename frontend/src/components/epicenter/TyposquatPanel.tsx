@@ -6,8 +6,8 @@ import { Button } from "../ui/Button";
 import { Card } from "../ui/Card";
 
 export function TyposquatPanel() {
-  const [input, setInput] = useState("mbt");
-  const [packageName, setPackageName] = useState("mbt");
+  const [input, setInput] = useState("@cap-js/sqlite");
+  const [packageName, setPackageName] = useState("@cap-js/sqlite");
   const { data, error, isLoading } = useTyposquats(packageName);
   const result = data?.packageName === packageName ? data : null;
 
@@ -41,7 +41,7 @@ export function TyposquatPanel() {
             className="min-h-12 min-w-0 flex-1 border border-rule-strong bg-black px-4 font-mono text-xs text-white outline-none placeholder:text-dim focus:border-accent"
             value={input}
             onChange={(event) => setInput(event.target.value)}
-            placeholder="mbt"
+            placeholder="@cap-js/sqlite"
           />
           <Button type="submit">Check name</Button>
         </form>

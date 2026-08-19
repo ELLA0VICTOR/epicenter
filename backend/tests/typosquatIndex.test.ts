@@ -13,8 +13,27 @@ test("computes canonical Levenshtein distances", () => {
 });
 
 test("keeps non-identical package names within the configured distance", () => {
-  assert.deepEqual(buildTyposquatIndex(["mbt"], ["mbt", "ms", "mitt", "react"]), [
-    { sourceName: "mbt", similarName: "mitt", distance: 2 },
-    { sourceName: "mbt", similarName: "ms", distance: 2 },
-  ]);
+  assert.deepEqual(
+    buildTyposquatIndex(
+      ["eslint"],
+      ["eslint", "tslint", "es-lint", "react"],
+    ),
+    [
+      { sourceName: "eslint", similarName: "es-lint", distance: 1 },
+      { sourceName: "eslint", similarName: "tslint", distance: 1 },
+    ],
+  );
+});
+
+test("skips short seeded and popular package names", () => {
+  assert.deepEqual(
+    buildTyposquatIndex(
+      [" mbt ", "eslint"],
+      ["mitt", "ms", "es-lint", "tslint"],
+    ),
+    [
+      { sourceName: "eslint", similarName: "es-lint", distance: 1 },
+      { sourceName: "eslint", similarName: "tslint", distance: 1 },
+    ],
+  );
 });

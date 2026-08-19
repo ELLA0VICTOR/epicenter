@@ -9,6 +9,11 @@ SET package:Package,
     package.metadata_source_url = row.metadata_source_url
 `;
 
+export const CLEAR_NAME_SIMILAR_TO_QUERY = `
+MATCH ()-[relationship:NAME_SIMILAR_TO]->()
+DELETE relationship
+`;
+
 export const UPSERT_NAME_SIMILAR_TO_QUERY = `
 UNWIND $rows AS row
 MATCH (source:Package {id: row.source_id}), (target:Package {id: row.target_id})

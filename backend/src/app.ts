@@ -2,6 +2,7 @@ import express from "express";
 
 import { analyzeRouter } from "./routes/analyze.js";
 import { healthRouter } from "./routes/health.js";
+import { incidentReplayRouter } from "./routes/incidentReplay.js";
 import { incidentsRouter } from "./routes/incidents.js";
 import { maintainerOverlapRouter } from "./routes/maintainerOverlap.js";
 import { typosquatsRouter } from "./routes/typosquats.js";
@@ -13,6 +14,7 @@ app.use(
   "/api",
   healthRouter,
   incidentsRouter,
+  incidentReplayRouter,
   maintainerOverlapRouter,
   typosquatsRouter,
   analyzeRouter,

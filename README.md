@@ -16,9 +16,10 @@ The May 2026 TanStack compromise demonstrated the scale of that problem: a CI co
 - Idempotent lockfile ingestion with `PackageVersion`, `DEPENDS_ON`, `LockfileSubmission`, and `RESOLVED` graph records.
 - A blast-radius API using a direct exact-version pass plus HydraDB `algo.MSpaths` for transitive path reconstruction.
 - A force-directed exposure graph and safe/exposed result summary.
+- A timestamp-backed propagation replay for all six incidents, ordered by each compromised version's sourced publish time.
 - Six sourced TeamPCP-related incidents containing 50 packages, 94 compromised versions, and 20 real maintainer identities.
 - Incident-scoped maintainer-overlap traversal over `MAINTAINS` edges.
-- A precomputed typosquat index against 2,000 ranked npm names, stored as `NAME_SIMILAR_TO {distance}` edges.
+- A precomputed typosquat index against 2,000 ranked npm names, stored as `NAME_SIMILAR_TO {distance}` edges; names shorter than five characters are excluded to avoid noisy matches.
 
 Current curated graph statistics:
 
@@ -29,7 +30,7 @@ Current curated graph statistics:
 | Incidents | 6 |
 | Maintainers | 20 |
 | Popular-name snapshot | 2,000 |
-| Precomputed similarity edges | 7 |
+| Precomputed similarity edges | 0 after the five-character noise filter |
 
 ## How this uses HydraDB
 
@@ -80,6 +81,8 @@ An exact key intersection answers direct exposure immediately; `algo.MSpaths` re
 
 Requirements: Docker Desktop, Node.js 22 or newer, npm, and Git with submodule support.
 
+For a fresh checkout, clone with the HydraDB submodule included: `git clone --recurse-submodules https://github.com/ELLA0VICTOR/epicenter.git` (or run `git submodule update --init --recursive` after a normal clone).
+
 ```bash
 git submodule update --init --recursive
 npm install
@@ -110,6 +113,7 @@ Default local configuration is documented in `.env.example` and `backend/.env.ex
 |---|---|---|
 | `GET` | `/api/health` | Backend and HydraDB liveness |
 | `GET` | `/api/incidents` | Incident metadata and live graph statistics |
+| `GET` | `/api/incidents/:id/replay` | Compromised versions ordered by sourced publication time for replay |
 | `POST` | `/api/analyze` | Parse, ingest, and analyze a lockfile |
 | `GET` | `/api/maintainer-overlap?incidentId=...` | Find packages outside an incident set reached through shared maintainers |
 | `GET` | `/api/typosquats?packageName=...` | Read precomputed nearby-name edges for a seeded package |

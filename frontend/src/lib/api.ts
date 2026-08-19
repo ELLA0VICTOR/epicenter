@@ -2,6 +2,7 @@ import type {
   AnalyzeResponse,
   IncidentsResponse,
   MaintainerOverlapResponse,
+  ReplayEvent,
   TyposquatResponse,
 } from "./types";
 
@@ -25,6 +26,11 @@ async function requestJson<T>(input: RequestInfo, init?: RequestInit): Promise<T
 
 export const getIncidents = (): Promise<IncidentsResponse> =>
   requestJson<IncidentsResponse>("/api/incidents");
+
+export const getIncidentReplay = (incidentId: string): Promise<ReplayEvent[]> =>
+  requestJson<ReplayEvent[]>(
+    `/api/incidents/${encodeURIComponent(incidentId)}/replay`,
+  );
 
 export const analyzeLockfile = (
   lockfile: string,

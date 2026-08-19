@@ -6,6 +6,7 @@ import { npmHighImpact } from "npm-high-impact";
 
 import { runQuery, type HydraParameter, type HydraScalar } from "../src/hydra/client.js";
 import {
+  CLEAR_NAME_SIMILAR_TO_QUERY,
   UPSERT_NAME_SIMILAR_TO_QUERY,
   UPSERT_TYPOSQUAT_REFERENCE_PACKAGES_QUERY,
 } from "../src/hydra/cypher/typosquats.js";
@@ -102,6 +103,13 @@ async function writeRows(label: string, query: string, rows: HydraRow[]) {
   );
   console.log(`[hydra] ${label}: ${rows.length} rows (${result.query_id})`);
 }
+
+const cleared = await runQuery(
+  CLEAR_NAME_SIMILAR_TO_QUERY,
+  {},
+  { consistency: "strong" },
+);
+console.log(`[hydra] cleared NAME_SIMILAR_TO edges (${cleared.query_id})`);
 
 await writeRows(
   "typosquat reference packages",
