@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+coverage
+.eslintcache
+*.tsbuildinfo
+*.local
+
+# Local environment files (keep the safe templates tracked)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Local build specifications used to guide implementation
+EPICENTER_PROJECT_SPEC.md
+EPICENTER_FRONTEND_DESIGN.md
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

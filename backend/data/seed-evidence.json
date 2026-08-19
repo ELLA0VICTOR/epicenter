@@ -1,0 +1,2795 @@
+{
+  "generatedAt": "2026-08-19T07:30:00.153Z",
+  "summary": {
+    "incidents": 6,
+    "packages": 50,
+    "compromisedVersions": 94
+  },
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/arktype-adapter",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Farktype-adapter",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Farktype-adapter"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Farktype-adapter"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Farktype-adapter"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.821Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.821Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Farktype-adapter/versions/1.166.12"
+        },
+        {
+          "version": "1.166.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.829Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.829Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Farktype-adapter/versions/1.166.15"
+        },
+        {
+          "version": "1.166.9",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:38.960Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:38.960Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Farktype-adapter/versions/1.166.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/eslint-plugin-router",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-router",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-router"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-router"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-router"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.161.9",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.628Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.628Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Feslint-plugin-router/versions/1.161.9"
+        },
+        {
+          "version": "1.161.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.653Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.653Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Feslint-plugin-router/versions/1.161.12"
+        },
+        {
+          "version": "1.161.6",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:39.069Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:39.069Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Feslint-plugin-router/versions/1.161.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/eslint-plugin-start",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-start",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-start"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-start"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Feslint-plugin-start"
+        }
+      ],
+      "versions": [
+        {
+          "version": "0.0.4",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:41.346Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:41.346Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Feslint-plugin-start/versions/0.0.4"
+        },
+        {
+          "version": "0.0.7",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.921Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.921Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Feslint-plugin-start/versions/0.0.7"
+        },
+        {
+          "version": "0.0.1",
+          "compromised": false,
+          "publishedAt": "2026-04-11T00:16:43.957Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-11T00:16:43.957Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Feslint-plugin-start/versions/0.0.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/history",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fhistory",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fhistory"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fhistory"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fhistory"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.161.9",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.565Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.565Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fhistory/versions/1.161.9"
+        },
+        {
+          "version": "1.161.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.690Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.690Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fhistory/versions/1.161.12"
+        },
+        {
+          "version": "1.161.6",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:38.989Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:38.989Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fhistory/versions/1.161.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/nitro-v2-vite-plugin",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fnitro-v2-vite-plugin",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fnitro-v2-vite-plugin"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fnitro-v2-vite-plugin"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fnitro-v2-vite-plugin"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.154.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.524Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.524Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fnitro-v2-vite-plugin/versions/1.154.12"
+        },
+        {
+          "version": "1.154.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.172Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.172Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fnitro-v2-vite-plugin/versions/1.154.15"
+        },
+        {
+          "version": "1.154.9",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:38.943Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:38.943Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fnitro-v2-vite-plugin/versions/1.154.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-router",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.169.5",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:42.105Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:42.105Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router/versions/1.169.5"
+        },
+        {
+          "version": "1.169.8",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:17.716Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:17.716Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router/versions/1.169.8"
+        },
+        {
+          "version": "1.169.2",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:38.526Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:38.526Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router/versions/1.169.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-router-devtools",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-devtools",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-devtools"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-devtools"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-devtools"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.16",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.936Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.936Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router-devtools/versions/1.166.16"
+        },
+        {
+          "version": "1.166.19",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.124Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.124Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router-devtools/versions/1.166.19"
+        },
+        {
+          "version": "1.166.13",
+          "compromised": false,
+          "publishedAt": "2026-04-11T11:24:53.981Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-11T11:24:53.981Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router-devtools/versions/1.166.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-router-ssr-query",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-ssr-query",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-ssr-query"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-ssr-query"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-router-ssr-query"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.110Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.110Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router-ssr-query/versions/1.166.15"
+        },
+        {
+          "version": "1.166.18",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.673Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.673Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router-ssr-query/versions/1.166.18"
+        },
+        {
+          "version": "1.166.12",
+          "compromised": false,
+          "publishedAt": "2026-04-25T20:39:36.057Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-25T20:39:36.057Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-router-ssr-query/versions/1.166.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-start",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.167.68",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:42.111Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:42.111Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start/versions/1.167.68"
+        },
+        {
+          "version": "1.167.71",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.558Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.558Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start/versions/1.167.71"
+        },
+        {
+          "version": "1.167.65",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.215Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.215Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start/versions/1.167.65"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-start-client",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-client",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-client"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-client"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-client"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.51",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.703Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.703Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-client/versions/1.166.51"
+        },
+        {
+          "version": "1.166.54",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.316Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.316Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-client/versions/1.166.54"
+        },
+        {
+          "version": "1.166.48",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:37.929Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:37.929Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-client/versions/1.166.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-start-rsc",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-rsc",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-rsc"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-rsc"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-rsc"
+        }
+      ],
+      "versions": [
+        {
+          "version": "0.0.47",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:41.274Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:41.274Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-rsc/versions/0.0.47"
+        },
+        {
+          "version": "0.0.50",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.472Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.472Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-rsc/versions/0.0.50"
+        },
+        {
+          "version": "0.0.44",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.379Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.379Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-rsc/versions/0.0.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/react-start-server",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-server",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-server"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-server"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Freact-start-server"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.55",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.014Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.014Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-server/versions/1.166.55"
+        },
+        {
+          "version": "1.166.58",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.861Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.861Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-server/versions/1.166.58"
+        },
+        {
+          "version": "1.166.52",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:37.582Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:37.582Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Freact-start-server/versions/1.166.52"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-cli",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-cli",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-cli"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-cli"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-cli"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.46",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.567Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.567Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-cli/versions/1.166.46"
+        },
+        {
+          "version": "1.166.49",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.629Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.629Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-cli/versions/1.166.49"
+        },
+        {
+          "version": "1.166.43",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:30.778Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:30.778Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-cli/versions/1.166.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-core",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-core",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-core"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-core"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-core"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.169.5",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:42.410Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:42.410Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-core/versions/1.169.5"
+        },
+        {
+          "version": "1.169.8",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:18.605Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:18.605Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-core/versions/1.169.8"
+        },
+        {
+          "version": "1.169.2",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:38.530Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:38.530Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-core/versions/1.169.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-devtools",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.16",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.782Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.782Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-devtools/versions/1.166.16"
+        },
+        {
+          "version": "1.166.19",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.544Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.544Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-devtools/versions/1.166.19"
+        },
+        {
+          "version": "1.166.13",
+          "compromised": false,
+          "publishedAt": "2026-04-11T11:24:53.429Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-11T11:24:53.429Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-devtools/versions/1.166.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-devtools-core",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools-core",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools-core"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools-core"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-devtools-core"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.167.6",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.288Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.288Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-devtools-core/versions/1.167.6"
+        },
+        {
+          "version": "1.167.9",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.009Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.009Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-devtools-core/versions/1.167.9"
+        },
+        {
+          "version": "1.167.3",
+          "compromised": false,
+          "publishedAt": "2026-04-11T11:24:53.274Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-11T11:24:53.274Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-devtools-core/versions/1.167.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-generator",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-generator",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-generator"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-generator"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-generator"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.45",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:41.419Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:41.419Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-generator/versions/1.166.45"
+        },
+        {
+          "version": "1.166.48",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.915Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.915Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-generator/versions/1.166.48"
+        },
+        {
+          "version": "1.166.42",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.039Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.039Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-generator/versions/1.166.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-plugin",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-plugin",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-plugin"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-plugin"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-plugin"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.167.38",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:41.445Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:41.445Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-plugin/versions/1.167.38"
+        },
+        {
+          "version": "1.167.41",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:17.391Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:17.391Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-plugin/versions/1.167.41"
+        },
+        {
+          "version": "1.167.35",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.618Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.618Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-plugin/versions/1.167.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-ssr-query-core",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-ssr-query-core",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-ssr-query-core"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-ssr-query-core"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-ssr-query-core"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.168.3",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.830Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.830Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-ssr-query-core/versions/1.168.3"
+        },
+        {
+          "version": "1.168.6",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.821Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.821Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-ssr-query-core/versions/1.168.6"
+        },
+        {
+          "version": "1.168.0",
+          "compromised": false,
+          "publishedAt": "2026-04-25T20:39:35.586Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-25T20:39:35.586Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-ssr-query-core/versions/1.168.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-utils",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-utils",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-utils"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-utils"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-utils"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.161.11",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.660Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.660Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-utils/versions/1.161.11"
+        },
+        {
+          "version": "1.161.14",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.300Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.300Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-utils/versions/1.161.14"
+        },
+        {
+          "version": "1.161.8",
+          "compromised": false,
+          "publishedAt": "2026-05-05T00:00:18.971Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T00:00:18.971Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-utils/versions/1.161.8"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/router-vite-plugin",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-vite-plugin",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-vite-plugin"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-vite-plugin"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Frouter-vite-plugin"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.53",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.613Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.613Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-vite-plugin/versions/1.166.53"
+        },
+        {
+          "version": "1.166.56",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.385Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.385Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-vite-plugin/versions/1.166.56"
+        },
+        {
+          "version": "1.166.50",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:30.809Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:30.809Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Frouter-vite-plugin/versions/1.166.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/solid-router",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.169.5",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:43.431Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:43.431Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router/versions/1.169.5"
+        },
+        {
+          "version": "1.169.8",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:18.819Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:18.819Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router/versions/1.169.8"
+        },
+        {
+          "version": "1.169.2",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:45.192Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:45.192Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router/versions/1.169.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/solid-router-devtools",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-devtools",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-devtools"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-devtools"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-devtools"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.16",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.853Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.853Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router-devtools/versions/1.166.16"
+        },
+        {
+          "version": "1.166.19",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.210Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.210Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router-devtools/versions/1.166.19"
+        },
+        {
+          "version": "2.0.0-beta.13",
+          "compromised": false,
+          "publishedAt": "2026-04-30T09:36:30.355Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-30T09:36:30.355Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router-devtools/versions/2.0.0-beta.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/solid-router-ssr-query",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-ssr-query",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-ssr-query"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-ssr-query"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-router-ssr-query"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.688Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.688Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router-ssr-query/versions/1.166.15"
+        },
+        {
+          "version": "1.166.18",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.370Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.370Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router-ssr-query/versions/1.166.18"
+        },
+        {
+          "version": "2.0.0-beta.18",
+          "compromised": false,
+          "publishedAt": "2026-04-30T09:36:30.698Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-30T09:36:30.698Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-router-ssr-query/versions/2.0.0-beta.18"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/solid-start",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.167.65",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:41.154Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:41.154Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start/versions/1.167.65"
+        },
+        {
+          "version": "1.167.68",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.045Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.045Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start/versions/1.167.68"
+        },
+        {
+          "version": "1.167.62",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.212Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.212Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start/versions/1.167.62"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/solid-start-client",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-client",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-client"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-client"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-client"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.50",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.763Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.763Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start-client/versions/1.166.50"
+        },
+        {
+          "version": "1.166.53",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.031Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.031Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start-client/versions/1.166.53"
+        },
+        {
+          "version": "1.166.47",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:43.398Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:43.398Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start-client/versions/1.166.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/solid-start-server",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-server",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-server"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-server"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fsolid-start-server"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.54",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.720Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.720Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start-server/versions/1.166.54"
+        },
+        {
+          "version": "1.166.57",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.107Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.107Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start-server/versions/1.166.57"
+        },
+        {
+          "version": "1.166.51",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:44.179Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:44.179Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fsolid-start-server/versions/1.166.51"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/start-client-core",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-client-core",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-client-core"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-client-core"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-client-core"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.168.5",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:41.973Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:41.973Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-client-core/versions/1.168.5"
+        },
+        {
+          "version": "1.168.8",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.897Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.897Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-client-core/versions/1.168.8"
+        },
+        {
+          "version": "1.168.2",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:43.927Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:43.927Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-client-core/versions/1.168.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/start-fn-stubs",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-fn-stubs",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-fn-stubs"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-fn-stubs"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-fn-stubs"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.161.9",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.939Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.939Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-fn-stubs/versions/1.161.9"
+        },
+        {
+          "version": "1.161.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.651Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.651Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-fn-stubs/versions/1.161.12"
+        },
+        {
+          "version": "1.161.6",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:52.635Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:52.635Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-fn-stubs/versions/1.161.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/start-plugin-core",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-plugin-core",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-plugin-core"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-plugin-core"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-plugin-core"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.169.23",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:43.979Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:43.979Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-plugin-core/versions/1.169.23"
+        },
+        {
+          "version": "1.169.26",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:18.127Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:18.127Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-plugin-core/versions/1.169.26"
+        },
+        {
+          "version": "1.169.20",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.937Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.937Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-plugin-core/versions/1.169.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/start-server-core",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-server-core",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-server-core"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-server-core"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-server-core"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.167.33",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.294Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.294Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-server-core/versions/1.167.33"
+        },
+        {
+          "version": "1.167.36",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:16.223Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:16.223Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-server-core/versions/1.167.36"
+        },
+        {
+          "version": "1.167.30",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:44.898Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:44.898Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-server-core/versions/1.167.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/start-static-server-functions",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-static-server-functions",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-static-server-functions"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-static-server-functions"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-static-server-functions"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.44",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.002Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.002Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-static-server-functions/versions/1.166.44"
+        },
+        {
+          "version": "1.166.47",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.715Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.715Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-static-server-functions/versions/1.166.47"
+        },
+        {
+          "version": "1.166.41",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:44.500Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:44.500Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-static-server-functions/versions/1.166.41"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/start-storage-context",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-storage-context",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-storage-context"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-storage-context"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fstart-storage-context"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.38",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.894Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.894Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-storage-context/versions/1.166.38"
+        },
+        {
+          "version": "1.166.41",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.410Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.410Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-storage-context/versions/1.166.41"
+        },
+        {
+          "version": "1.166.35",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:45.051Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:45.051Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fstart-storage-context/versions/1.166.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/valibot-adapter",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvalibot-adapter",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvalibot-adapter"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvalibot-adapter"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvalibot-adapter"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.430Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.430Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvalibot-adapter/versions/1.166.12"
+        },
+        {
+          "version": "1.166.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.163Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.163Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvalibot-adapter/versions/1.166.15"
+        },
+        {
+          "version": "1.166.9",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:54.887Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:54.887Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvalibot-adapter/versions/1.166.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/virtual-file-routes",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvirtual-file-routes",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvirtual-file-routes"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvirtual-file-routes"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvirtual-file-routes"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.161.10",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.502Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.502Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvirtual-file-routes/versions/1.161.10"
+        },
+        {
+          "version": "1.161.13",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.112Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.112Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvirtual-file-routes/versions/1.161.13"
+        },
+        {
+          "version": "1.161.7",
+          "compromised": false,
+          "publishedAt": "2026-03-16T23:09:21.913Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-16T23:09:21.913Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvirtual-file-routes/versions/1.161.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/vue-router",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.169.5",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:42.334Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:42.334Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router/versions/1.169.5"
+        },
+        {
+          "version": "1.169.8",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:17.508Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:17.508Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router/versions/1.169.8"
+        },
+        {
+          "version": "1.169.2",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:45.307Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:45.307Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router/versions/1.169.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/vue-router-devtools",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-devtools",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-devtools"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-devtools"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-devtools"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.16",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.616Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.616Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router-devtools/versions/1.166.16"
+        },
+        {
+          "version": "1.166.19",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.901Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.901Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router-devtools/versions/1.166.19"
+        },
+        {
+          "version": "1.166.13",
+          "compromised": false,
+          "publishedAt": "2026-04-11T11:25:05.608Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-11T11:25:05.608Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router-devtools/versions/1.166.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/vue-router-ssr-query",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-ssr-query",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-ssr-query"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-ssr-query"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-router-ssr-query"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.834Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.834Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router-ssr-query/versions/1.166.15"
+        },
+        {
+          "version": "1.166.18",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.572Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.572Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router-ssr-query/versions/1.166.18"
+        },
+        {
+          "version": "1.166.12",
+          "compromised": false,
+          "publishedAt": "2026-04-25T20:39:35.675Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-25T20:39:35.675Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-router-ssr-query/versions/1.166.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/vue-start",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.167.61",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.136Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.136Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start/versions/1.167.61"
+        },
+        {
+          "version": "1.167.64",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.653Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.653Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start/versions/1.167.64"
+        },
+        {
+          "version": "1.167.58",
+          "compromised": false,
+          "publishedAt": "2026-05-06T23:03:31.051Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-06T23:03:31.051Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start/versions/1.167.58"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/vue-start-client",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-client",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-client"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-client"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-client"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.46",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.697Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.697Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start-client/versions/1.166.46"
+        },
+        {
+          "version": "1.166.49",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.652Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.652Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start-client/versions/1.166.49"
+        },
+        {
+          "version": "1.166.43",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:47.964Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:47.964Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start-client/versions/1.166.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/vue-start-server",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-server",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-server"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-server"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fvue-start-server"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.50",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:40.336Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:40.336Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start-server/versions/1.166.50"
+        },
+        {
+          "version": "1.166.53",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:15.007Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:15.007Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start-server/versions/1.166.53"
+        },
+        {
+          "version": "1.166.47",
+          "compromised": false,
+          "publishedAt": "2026-05-05T20:37:48.773Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-05T20:37:48.773Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fvue-start-server/versions/1.166.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tanstack/zod-adapter",
+      "incidentId": "teampcp-tanstack-2026-05-11",
+      "incidentSourceUrl": "https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40tanstack%2Fzod-adapter",
+      "maintainers": [
+        {
+          "username": "tannerlinsley",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fzod-adapter"
+        },
+        {
+          "username": "alemtuzlak",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fzod-adapter"
+        },
+        {
+          "username": "kevinvandy",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40tanstack%2Fzod-adapter"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.166.12",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:20:39.476Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:20:39.476Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fzod-adapter/versions/1.166.12"
+        },
+        {
+          "version": "1.166.15",
+          "compromised": true,
+          "publishedAt": "2026-05-11T19:26:14.344Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-05-11T19:26:14.344Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fzod-adapter/versions/1.166.15"
+        },
+        {
+          "version": "1.166.9",
+          "compromised": false,
+          "publishedAt": "2026-03-15T22:42:58.476Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-15T22:42:58.476Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40tanstack%2Fzod-adapter/versions/1.166.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "go",
+      "name": "github.com/aquasecurity/trivy",
+      "incidentId": "teampcp-trivy-2026-03-19",
+      "incidentSourceUrl": "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know/",
+      "metadataSource": "deps.dev-source-repository",
+      "metadataSourceUrl": "https://github.com/aquasecurity/trivy",
+      "maintainers": [
+        {
+          "username": "github:aquasecurity",
+          "source": "deps.dev-source-repository",
+          "sourceUrl": "https://github.com/aquasecurity/trivy"
+        }
+      ],
+      "versions": [
+        {
+          "version": "v0.69.4",
+          "compromised": true,
+          "publishedAt": "2026-03-19T17:43:00Z",
+          "publishedAtSource": "incident-report",
+          "publishedAtPrecision": "minute",
+          "registryPublishedAt": "2026-03-04T10:13:53Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/GO/packages/github.com%2Faquasecurity%2Ftrivy/versions/v0.69.4"
+        },
+        {
+          "version": "v0.69.3",
+          "compromised": false,
+          "publishedAt": "2026-03-03T11:11:54Z",
+          "publishedAtSource": "deps.dev",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-03T11:11:54Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/GO/packages/github.com%2Faquasecurity%2Ftrivy/versions/v0.69.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "litellm",
+      "incidentId": "teampcp-litellm-2026-03-24",
+      "incidentSourceUrl": "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/",
+      "metadataSource": "deps.dev-source-repository",
+      "metadataSourceUrl": "https://github.com/BerriAI/litellm",
+      "maintainers": [
+        {
+          "username": "github:BerriAI",
+          "source": "deps.dev-source-repository",
+          "sourceUrl": "https://github.com/BerriAI/litellm"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.82.7",
+          "compromised": true,
+          "publishedAt": "2026-03-24T00:00:00Z",
+          "publishedAtSource": "incident-report",
+          "publishedAtPrecision": "day",
+          "registryPublishedAt": "",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/PYPI/packages/litellm/versions/1.82.7"
+        },
+        {
+          "version": "1.82.8",
+          "compromised": true,
+          "publishedAt": "2026-03-24T00:00:00Z",
+          "publishedAtSource": "incident-report",
+          "publishedAtPrecision": "day",
+          "registryPublishedAt": "",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/PYPI/packages/litellm/versions/1.82.8"
+        },
+        {
+          "version": "1.82.6",
+          "compromised": false,
+          "publishedAt": "2026-03-22T06:35:56Z",
+          "publishedAtSource": "deps.dev",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-03-22T06:35:56Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/PYPI/packages/litellm/versions/1.82.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mbt",
+      "incidentId": "teampcp-sap-2026-04-29",
+      "incidentSourceUrl": "https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/mbt",
+      "maintainers": [
+        {
+          "username": "shimit",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/mbt"
+        },
+        {
+          "username": "cloudmtabot",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/mbt"
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.2.48",
+          "compromised": true,
+          "publishedAt": "2026-04-29T09:55:25.654Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-29T09:55:25.654Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/mbt/versions/1.2.48"
+        },
+        {
+          "version": "1.2.47",
+          "compromised": false,
+          "publishedAt": "2026-04-24T11:29:24.746Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-24T11:29:24.746Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/mbt/versions/1.2.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@cap-js/db-service",
+      "incidentId": "teampcp-sap-2026-04-29",
+      "incidentSourceUrl": "https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40cap-js%2Fdb-service",
+      "maintainers": [
+        {
+          "username": "sap_extncrepos",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fdb-service"
+        },
+        {
+          "username": "cap-npm",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fdb-service"
+        },
+        {
+          "username": "sap-ospo-admin",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fdb-service"
+        }
+      ],
+      "versions": [
+        {
+          "version": "2.10.1",
+          "compromised": true,
+          "publishedAt": "2026-04-29T12:14:00.709Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-29T12:14:00.709Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40cap-js%2Fdb-service/versions/2.10.1"
+        },
+        {
+          "version": "2.10.0",
+          "compromised": false,
+          "publishedAt": "2026-04-23T11:48:24.880Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-23T11:48:24.880Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40cap-js%2Fdb-service/versions/2.10.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@cap-js/postgres",
+      "incidentId": "teampcp-sap-2026-04-29",
+      "incidentSourceUrl": "https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40cap-js%2Fpostgres",
+      "maintainers": [
+        {
+          "username": "sap_extncrepos",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fpostgres"
+        },
+        {
+          "username": "cap-npm",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fpostgres"
+        },
+        {
+          "username": "sap-ospo-admin",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fpostgres"
+        }
+      ],
+      "versions": [
+        {
+          "version": "2.2.2",
+          "compromised": true,
+          "publishedAt": "2026-04-29T12:14:00.759Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-29T12:14:00.759Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40cap-js%2Fpostgres/versions/2.2.2"
+        },
+        {
+          "version": "2.2.1",
+          "compromised": false,
+          "publishedAt": "2026-04-23T11:48:31.379Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-23T11:48:31.379Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40cap-js%2Fpostgres/versions/2.2.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@cap-js/sqlite",
+      "incidentId": "teampcp-sap-2026-04-29",
+      "incidentSourceUrl": "https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40cap-js%2Fsqlite",
+      "maintainers": [
+        {
+          "username": "sap_extncrepos",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fsqlite"
+        },
+        {
+          "username": "cap-npm",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fsqlite"
+        },
+        {
+          "username": "sap-ospo-admin",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40cap-js%2Fsqlite"
+        }
+      ],
+      "versions": [
+        {
+          "version": "2.2.2",
+          "compromised": true,
+          "publishedAt": "2026-04-29T11:25:47.756Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-29T11:25:47.756Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40cap-js%2Fsqlite/versions/2.2.2"
+        },
+        {
+          "version": "2.2.1",
+          "compromised": false,
+          "publishedAt": "2026-04-23T11:48:27.963Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-23T11:48:27.963Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40cap-js%2Fsqlite/versions/2.2.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@bitwarden/cli",
+      "incidentId": "teampcp-bitwarden-2026-04-22",
+      "incidentSourceUrl": "https://www.paloaltonetworks.com/blog/cloud-security/bitwardencli-supply-chain-attack/",
+      "metadataSource": "npm-registry",
+      "metadataSourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli",
+      "maintainers": [
+        {
+          "username": "mchecinskibw",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "racostabw",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "agalles",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "fntyler",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "bbiete",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "aj-bw",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "bribitwarden",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "apixley_bw",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        },
+        {
+          "username": "bwvgrassia",
+          "source": "npm-registry",
+          "sourceUrl": "https://registry.npmjs.org/%40bitwarden%2Fcli"
+        }
+      ],
+      "versions": [
+        {
+          "version": "2026.4.0",
+          "compromised": true,
+          "publishedAt": "2026-04-22T21:22:59.021Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-22T21:22:59.021Z",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40bitwarden%2Fcli/versions/2026.4.0"
+        },
+        {
+          "version": "2026.3.0",
+          "compromised": false,
+          "publishedAt": "2026-04-02T17:27:31.694Z",
+          "publishedAtSource": "npm-registry",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-04-02T17:27:31.694Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/NPM/packages/%40bitwarden%2Fcli/versions/2026.3.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "lightning",
+      "incidentId": "teampcp-lightning-2026-04-30",
+      "incidentSourceUrl": "https://lightning.ai/blog/pytorch-lightning-supply-chain-attack",
+      "metadataSource": "deps.dev-source-repository",
+      "metadataSourceUrl": "https://github.com/Lightning-AI/lightning",
+      "maintainers": [
+        {
+          "username": "github:Lightning-AI",
+          "source": "deps.dev-source-repository",
+          "sourceUrl": "https://github.com/Lightning-AI/lightning"
+        }
+      ],
+      "versions": [
+        {
+          "version": "2.6.2",
+          "compromised": true,
+          "publishedAt": "2026-04-30T00:00:00Z",
+          "publishedAtSource": "incident-report",
+          "publishedAtPrecision": "day",
+          "registryPublishedAt": "",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/PYPI/packages/lightning/versions/2.6.2"
+        },
+        {
+          "version": "2.6.3",
+          "compromised": true,
+          "publishedAt": "2026-04-30T00:00:00Z",
+          "publishedAtSource": "incident-report",
+          "publishedAtPrecision": "day",
+          "registryPublishedAt": "",
+          "metadataStatus": "removed-from-deps-dev",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/PYPI/packages/lightning/versions/2.6.3"
+        },
+        {
+          "version": "2.6.1",
+          "compromised": false,
+          "publishedAt": "2026-01-30T14:59:11Z",
+          "publishedAtSource": "deps.dev",
+          "publishedAtPrecision": "exact",
+          "registryPublishedAt": "2026-01-30T14:59:11Z",
+          "metadataStatus": "deps-dev-present",
+          "depsDevUrl": "https://api.deps.dev/v3/systems/PYPI/packages/lightning/versions/2.6.1"
+        }
+      ]
+    }
+  ]
+}

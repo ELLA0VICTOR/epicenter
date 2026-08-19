@@ -1,0 +1,58 @@
+services:
+  hydra-init:
+    image: ubuntu:24.04
+    user: "0:0"
+    environment:
+      HYDRA_DEV_TOKEN: ${HYDRA_DEV_TOKEN:-local-development-token-32-bytes}
+    command:
+      - /bin/sh
+      - -ec
+      - |
+        install -d -o 10001 -g 10001 /data/store /data/cache /data/auth
+        printf '%s\n' "$${HYDRA_DEV_TOKEN}" > /data/auth/token
+        chown 10001:10001 /data/auth/token
+        chmod 600 /data/auth/token
+    volumes:
+      - hydra-store:/data/store
+      - hydra-cache:/data/cache
+      - hydra-auth:/data/auth
+    restart: "no"
+
+  graph-node:
+    build:
+      context: ./vendor/hydradb
+      dockerfile: Dockerfile
+      target: runtime
+    image: epicenter-hydradb:local
+    init: true
+    depends_on:
+      hydra-init:
+        condition: service_completed_successfully
+    ports:
+      - "8443:8443"
+      - "7687:7687"
+      - "9090:9090"
+    environment:
+      CLOUD_PROVIDER: local
+      LOCAL_PATH: /data/store
+      GRAPH_NAMESPACE: default
+      GRAPH_ID: epicenter
+      GRAPH_CELL_ID: cell-0
+      GRAPH_CELLS: cell-0
+      GRAPH_NODE_ID: node-0
+      GRAPH_BOLT_NODE_ADDRESSES: node-0=127.0.0.1:7687
+      GRAPH_ADVERTISED_BOLT_ADDR: 127.0.0.1:7687
+      GRAPH_DATA_CACHE_DIR: /data/cache
+      GRAPH_AUTH_TOKEN_FILE: /data/auth/token
+      GRAPH_ALLOW_PLAINTEXT: "true"
+      RUST_MIN_STACK: "33554432"
+    volumes:
+      - hydra-store:/data/store
+      - hydra-cache:/data/cache
+      - hydra-auth:/data/auth:ro
+    restart: unless-stopped
+
+volumes:
+  hydra-store:
+  hydra-cache:
+  hydra-auth:

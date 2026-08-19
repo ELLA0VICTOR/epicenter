@@ -1,0 +1,22 @@
+{
+  "name": "epicenter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "build:backend": "npm run build --workspace backend",
+    "build:all": "npm run build --workspace backend && npm run build --workspace frontend",
+    "lint": "npm run lint --workspace frontend",
+    "preview": "npm run preview --workspace frontend",
+    "schema": "npm run schema --workspace backend",
+    "seed": "npm run seed --workspace backend"
+  }
+}

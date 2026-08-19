@@ -1,0 +1,29 @@
+{
+  "name": "@epicenter/backend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "benchmark:blast-radius": "tsx scripts/benchmark-blast-radius.ts",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/src/index.js",
+    "schema": "tsx scripts/setup-schema.ts",
+    "seed": "npm run seed:incidents && npm run seed:typosquats",
+    "seed:incidents": "tsx scripts/seed-incidents.ts",
+    "seed:typosquats": "tsx scripts/seed-typosquat-list.ts",
+    "test": "tsx --test tests/**/*.test.ts",
+    "test:e2e": "tsx scripts/test-analyze-e2e.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "npm-high-impact": "^1.13.0",
+    "tsx": "^4.20.5",
+    "typescript": "~6.0.2"
+  }
+}

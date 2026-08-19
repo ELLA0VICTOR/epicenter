@@ -1,0 +1,125 @@
+@import "@fontsource-variable/geist/index.css";
+@import "@fontsource-variable/geist-mono/index.css";
+@import "@fontsource/geist-pixel/400.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #000000;
+  --fg: #ffffff;
+  --accent: #ff5719;
+  --fg-muted: #bcbfcc;
+  --fg-subtle: #9da2b3;
+  --fg-dim: #6e7180;
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.18);
+  --accent-dim: rgba(255, 87, 25, 0.06);
+  --smoke: #d3d6e0;
+  --cloud: #edeff7;
+  --shell: 1240px;
+  --font-display: "Geist Pixel", "Geist Mono Variable", ui-monospace, monospace;
+  --font-sans: "Geist Variable", Inter, system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, SFMono-Regular, monospace;
+  color: var(--fg);
+  background: var(--bg);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--bg);
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: var(--bg);
+  background: var(--accent);
+}
+
+:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.marquee-track {
+  width: max-content;
+  animation: marquee 34s linear infinite;
+}
+
+.drop-active {
+  background: var(--accent-dim);
+  border-color: var(--accent) !important;
+}
+
+.graph-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  fill: var(--fg-muted);
+  pointer-events: none;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition:
+    opacity 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 720ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal[data-reveal-visible="true"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+  }
+
+  .reveal,
+  .reveal[data-reveal-visible="true"] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
