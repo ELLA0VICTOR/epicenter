@@ -107,6 +107,23 @@ Open [http://localhost:5173](http://localhost:5173). The Vite server proxies `/a
 
 Default local configuration is documented in `.env.example` and `backend/.env.example`. Override those values with environment variables when needed.
 
+## Deployment
+
+The production deployment uses two public services:
+
+- Vercel serves the static React/Vite frontend from the `frontend` root directory.
+- One Render Docker web service runs the Express API and an internal HydraDB node. HydraDB is not exposed publicly.
+
+Create the Render service from the root `render.yaml` Blueprint. The free Render plan has an ephemeral filesystem and spins down after inactivity, so `deploy/render/entrypoint.sh` rebuilds the sourced incident graph before starting the public API whenever a fresh container starts. This makes free cold starts slower but keeps the demonstration self-initializing. For durable production storage, upgrade the Render service and attach a persistent disk at `/data`.
+
+After Render provides the API URL, configure this Vercel build variable and redeploy the frontend:
+
+```text
+VITE_API_BASE_URL=https://your-epicenter-api.onrender.com
+```
+
+For local Vite development, leave `VITE_API_BASE_URL` empty so requests continue through the local `/api` proxy.
+
 ## API routes
 
 | Method | Route | Purpose |

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: epicenter-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./deploy/render/Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: HYDRA_AUTH_TOKEN
+        generateValue: true
+      - key: FRONTEND_ORIGIN
+        value: "*"
+      - key: RUST_LOG
+        value: warn

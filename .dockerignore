@@ -1,0 +1,16 @@
+.git
+.github
+.vscode
+.idea
+node_modules
+**/node_modules
+**/dist
+coverage
+*.log
+.env
+.env.*
+vendor
+frontend/*
+!frontend/package.json
+EPICENTER_PROJECT_SPEC.md
+EPICENTER_FRONTEND_DESIGN.md
