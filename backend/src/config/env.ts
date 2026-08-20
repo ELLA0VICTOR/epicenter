@@ -23,5 +23,6 @@ export const env = Object.freeze({
   hydraNamespace: readString("HYDRA_NAMESPACE", "default"),
   hydraGraphId: readString("HYDRA_GRAPH_ID", "epicenter"),
   hydraCellId: readString("HYDRA_CELL_ID", "cell-0"),
-  backendPort: readPort("BACKEND_PORT", 3001),
+  backendPort: readPort("BACKEND_PORT", readPort("PORT", 3001)),
+  frontendOrigin: readString("FRONTEND_ORIGIN", "*"),
 });

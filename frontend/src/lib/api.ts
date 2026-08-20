@@ -6,6 +6,12 @@ import type {
   TyposquatResponse,
 } from "./types";
 
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? "")
+  .trim()
+  .replace(/\/+$/, "");
+
+const apiUrl = (path: string): string => `${API_BASE_URL}${path}`;
+
 async function requestJson<T>(input: RequestInfo, init?: RequestInit): Promise<T> {
   const response = await fetch(input, init);
   const body = (await response.json()) as unknown;
@@ -25,18 +31,18 @@ async function requestJson<T>(input: RequestInfo, init?: RequestInit): Promise<T
 }
 
 export const getIncidents = (): Promise<IncidentsResponse> =>
-  requestJson<IncidentsResponse>("/api/incidents");
+  requestJson<IncidentsResponse>(apiUrl("/api/incidents"));
 
 export const getIncidentReplay = (incidentId: string): Promise<ReplayEvent[]> =>
   requestJson<ReplayEvent[]>(
-    `/api/incidents/${encodeURIComponent(incidentId)}/replay`,
+    apiUrl(`/api/incidents/${encodeURIComponent(incidentId)}/replay`),
   );
 
 export const analyzeLockfile = (
   lockfile: string,
   sourceLabel?: string,
 ): Promise<AnalyzeResponse> =>
-  requestJson<AnalyzeResponse>("/api/analyze", {
+  requestJson<AnalyzeResponse>(apiUrl("/api/analyze"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ lockfile, ...(sourceLabel ? { sourceLabel } : {}) }),
@@ -46,10 +52,12 @@ export const getMaintainerOverlap = (
   incidentId: string,
 ): Promise<MaintainerOverlapResponse> =>
   requestJson<MaintainerOverlapResponse>(
-    `/api/maintainer-overlap?incidentId=${encodeURIComponent(incidentId)}`,
+    apiUrl(
+      `/api/maintainer-overlap?incidentId=${encodeURIComponent(incidentId)}`,
+    ),
   );
 
 export const getTyposquats = (packageName: string): Promise<TyposquatResponse> =>
   requestJson<TyposquatResponse>(
-    `/api/typosquats?packageName=${encodeURIComponent(packageName)}`,
+    apiUrl(`/api/typosquats?packageName=${encodeURIComponent(packageName)}`),
   );
